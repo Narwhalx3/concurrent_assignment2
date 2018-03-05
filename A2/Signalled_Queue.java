@@ -24,6 +24,12 @@ class Signalled_Queue implements Queue{
 		// TODO Auto-generated method stub
 		
 	}
+
+	@Override
+	public void read(int ID) {
+		// no need to implement this
+		
+	}
 	
 	
 }

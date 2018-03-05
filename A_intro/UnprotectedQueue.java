@@ -15,6 +15,12 @@ class UnprotectedQueue implements Queue{
 
 		n = x;
 	}
+
+	@Override
+	public void read(int ID) {
+		// no need to implement this
+		
+	}
 }
 
 

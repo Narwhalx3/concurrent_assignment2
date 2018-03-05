@@ -13,19 +13,9 @@ public class Main {
 		queue=new Signalled_2Readers_Queue();
 		
 		new Writer(queue);
-		new Reader(queue);
+		new ReaderIdentified(queue,1);
+		new ReaderIdentified(queue,0);
 	
-
-		
-		//cola=new ColaSynchronized();
-		//cola=new ColaBusyWait();
-		//cola=new ColaConSeñales();
-		//queue=new ColaConSeñalesVariosConsumidores();
-		//cola=new ColaActivaVariosConsumidores();
-		
-		//new Consumidor(cola);
-		
-		
 		
 	}
 }

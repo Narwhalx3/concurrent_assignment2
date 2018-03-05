@@ -10,5 +10,7 @@ public interface Queue {
 	
 	 public void read();
 	 
+	 public void read(int ID);
+	 
 	 public void write(int x);
 }
